@@ -2,8 +2,10 @@
 # {} for a formatted string (include values inside)
 formatter = "{} {} {} {}"
 
-# With all these print lines we are introducing strings, numbers, booleans,
-# and even a variable inside the {} 
+# Take the formatter string defined on line 3
+# Call its format function, which is similar to telling it to do a command line command named format
+# Pass to format four arguments, which match up with the four {} in the formatter variable.
+# The result of calling format on formatter is a new string that has the {} replaced with the four variables.
 print(formatter.format(1, 2, 3, 4))
 print(formatter.format("one", "two", "three", "four"))
 print(formatter.format(True, False, False, True))
