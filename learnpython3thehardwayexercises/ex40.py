@@ -18,12 +18,4 @@ happy_bday.sing_me_a_song()
 
 bulls_on_parade.sing_me_a_song()
 
-
-# dos procesos
-# amis, desde la zona de holanda han solicitado tener un sharepoint con fotos
-# el proceso debe lanzarse, lanzar un powershell con o365 y asignara a cada usuario una foto en concreto
-# 
-#  cada x tiemop se lanza un script de caducidad de password, analiza quien esta caducado en ad y lo caduca en o365
-# fgpp
-# sacamos un listado de todos los users caducados
-# automaticamente lanzamos el siguiente comando de powershell a o365 pidiendo que se bloquee el usuario en el ad y que cambie el password la siguiente vez que se conecte
+# pag 187
