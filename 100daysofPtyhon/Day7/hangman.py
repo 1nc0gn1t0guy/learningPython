@@ -12,7 +12,7 @@ stages = hangmanlogo.stages
 word_list = hangmanwords.word_list
 chosen_word = random.choice(word_list)
 
-print(f'Pssst, the solution is {chosen_word}.')
+# print(f'Pssst, the solution is {chosen_word}.')
 
 lives = 6
 display = []
